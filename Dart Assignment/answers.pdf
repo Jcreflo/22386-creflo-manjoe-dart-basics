@@ -1,0 +1,795 @@
+%PDF-1.4
+%Generated answers
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R] /Count 15 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 850 >>
+stream
+BT
+/F1 10 Tf
+50 790 Td
+14 TL
+(A1) Tj
+T*
+() Tj
+T*
+(A1 Trace) Tj
+T*
+(Student: Creflo Johnson Manjoe) Tj
+T*
+(Reg no: 22386) Tj
+T*
+() Tj
+T*
+(Predicted and actual output:) Tj
+T*
+(3.4) Tj
+T*
+(3) Tj
+T*
+(2) Tj
+T*
+(3) Tj
+T*
+(-3) Tj
+T*
+(-17) Tj
+T*
+(false) Tj
+T*
+(true) Tj
+T*
+() Tj
+T*
+(Why:) Tj
+T*
+(17 / 5 is division using /, so Dart returns 3.4.) Tj
+T*
+(17 ~/ 5 performs integer division, giving 3.) Tj
+T*
+(17 % 5 gives the remainder 2.) Tj
+T*
+(-17 % 5 gives 3 because Dart's % operator returns a non-negative modulo for a positive) Tj
+T*
+(divisor.) Tj
+T*
+(-17 ~/ 5 truncates integer division toward zero, giving -3.) Tj
+T*
+(-17.abs\(\) applies abs\(\) to 17 and then makes the result negative, giving -17.) Tj
+T*
+(0.1 + 0.2 is not exactly equal to 0.3 as a binary floating-point value.) Tj
+T*
+(10 and 10.0 are numerically equal, so == returns true.) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 512 >>
+stream
+BT
+/F1 10 Tf
+50 790 Td
+14 TL
+(A2) Tj
+T*
+() Tj
+T*
+(A2 Trace) Tj
+T*
+(D = 6) Tj
+T*
+(T = 86) Tj
+T*
+(Predicted and actual output:) Tj
+T*
+(39) Tj
+T*
+(true) Tj
+T*
+(396) Tj
+T*
+() Tj
+T*
+(Why:) Tj
+T*
+(x is 6 and y is 86. z starts as 6 * 2 + 86 ~/ 4, which is 12 + 21 = 33. z += 6 makes z) Tj
+T*
+(equal 39.) Tj
+T*
+(39.isEven is false.) Tj
+T*
+('$z' + '$x' concatenates the strings "39" and "6", producing "396".) Tj
+T*
+() Tj
+T*
+(Type of z: int. Dart sees 2, x, y, and 23 ~/ 4 are all ints, so var infers int for z.) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 1415 >>
+stream
+BT
+/F1 10 Tf
+50 790 Td
+14 TL
+(B1) Tj
+T*
+() Tj
+T*
+(B1 Trace) Tj
+T*
+(Kigali length: 6) Tj
+T*
+(Last character: u) Tj
+T*
+(substring\(2,4\): gi) Tj
+T*
+(Uppercase index of A: 3) Tj
+T*
+(contains\('k'\): false) Tj
+T*
+('$city.length': Kigali.length) Tj
+T*
+('${city.length}': 6) Tj
+T*
+(city * 2: compile-time error because Dart Strings do not support *) Tj
+T*
+(After the city.toUpperCase\(\) call that is not assigned: Kigali) Tj
+T*
+(replaceAll\('i','!'\): K!gal!) Tj
+T*
+('5' + 5.toString\(\): 55) Tj
+T*
+(int.parse\('5'\) + 5: 10) Tj
+T*
+() Tj
+T*
+(Why:) Tj
+T*
+(The complete pasted snippet does not compile because city * 2 is not supported. The) Tj
+T*
+(other expressions are evaluated individually here.) Tj
+T*
+(length is 6; indexing the last character uses 6-1=5, which is u.) Tj
+T*
+(substring\(2,4\) excludes index 4 and returns "gi".) Tj
+T*
+(KIGALI has A at index 3.) Tj
+T*
+(contains\('k'\) is case-sensitive and the city contains no lower-case k.) Tj
+T*
+('$city.length' interpolates city only, then prints the literal ".length".) Tj
+T*
+('${city.length}' interpolates the length expression.) Tj
+T*
+(Strings have no multiplication operator.) Tj
+T*
+(toUpperCase\(\) returns a new String and does not modify city.) Tj
+T*
+(replaceAll replaces both i characters.) Tj
+T*
+(5.toString\(\) converts 5 to the string "5", and + concatenates it with the first string.) Tj
+T*
+(int.parse converts "5" to an int before addition.) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 560 >>
+stream
+BT
+/F1 10 Tf
+50 790 Td
+14 TL
+(B2) Tj
+T*
+() Tj
+T*
+(B2) Tj
+T*
+(Full name: Creflo Johnson Manjoe) Tj
+T*
+(Actual output: Creflo Johnson Manjoe has 7 vowels) Tj
+T*
+() Tj
+T*
+(Which single line makes capitals count?) Tj
+T*
+(final lower = text.toLowerCase\(\);) Tj
+T*
+() Tj
+T*
+(Why: converting the complete text to lower case makes both uppercase and lowercase) Tj
+T*
+(vowels match 'aeiou'. Without that line, uppercase vowels are not found because the) Tj
+T*
+(check only compares against lowercase a, e, i, o, u, so uppercase vowels would be) Tj
+T*
+(missed.) Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 717 >>
+stream
+BT
+/F1 10 Tf
+50 790 Td
+14 TL
+(B3) Tj
+T*
+() Tj
+T*
+(B3) Tj
+T*
+(Outputs:) Tj
+T*
+(C.J.M.) Tj
+T*
+(A.U.) Tj
+T*
+(\(empty result\)) Tj
+T*
+() Tj
+T*
+(Extra-space handling uses trim\(\) to remove leading and trailing spaces and) Tj
+T*
+(split\(RegExp\(r'\\s+'\)\) to separate names on any whitespace. For ' ana uwase ', trim\(\)) Tj
+T*
+(yields "ana uwase", and the split gives ana and uwase.) Tj
+T*
+() Tj
+T*
+(The likely breaking input was ' ana uwase ': the leading and trailing spaces could) Tj
+T*
+(create empty split entries or place a space in the first-name initial. It was fixed by) Tj
+T*
+(trimming and splitting with whitespace first, then taking each non-empty name's first) Tj
+T*
+(character and upper-casing it.) Tj
+T*
+ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 217 >>
+stream
+BT
+/F1 10 Tf
+50 790 Td
+14 TL
+(C1) Tj
+T*
+() Tj
+T*
+(C1 Trace) Tj
+T*
+(0) Tj
+T*
+(1) Tj
+T*
+(3) Tj
+T*
+() Tj
+T*
+(i = 2 triggers continue, so 2 is skipped. i = 4 triggers break, so 4 and 5 are never) Tj
+T*
+(printed.) Tj
+T*
+ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 17 0 R >>
+endobj
+17 0 obj
+<< /Length 496 >>
+stream
+BT
+/F1 10 Tf
+50 790 Td
+14 TL
+(C2) Tj
+T*
+() Tj
+T*
+(C2 Trace) Tj
+T*
+(day = 2: Early week) Tj
+T*
+(day = 1: Early week) Tj
+T*
+() Tj
+T*
+(In Dart 3, cases do not fall through. Each non-empty case terminates automatically, and) Tj
+T*
+(case 1 is not a fall-through label. A C or Java programmer may expect case 1 or 2 to) Tj
+T*
+(fall into the case 2 body, then continue through Midweek and Weekend soon, printing all) Tj
+T*
+(three lines; Dart does not share that implicit fall-through behavior.) Tj
+T*
+ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 19 0 R >>
+endobj
+19 0 obj
+<< /Length 381 >>
+stream
+BT
+/F1 10 Tf
+50 790 Td
+14 TL
+(C3) Tj
+T*
+() Tj
+T*
+(C3 Trace) Tj
+T*
+(50) Tj
+T*
+(70) Tj
+T*
+(10) Tj
+T*
+() Tj
+T*
+(bonus ?? 50 prints 50 because bonus is null. ??= 70 assigns 70 because bonus is null.) Tj
+T*
+(The second ??= does nothing because bonus is now 70. The do-while executes once, prints) Tj
+T*
+(10, then n becomes 13; the while test is false because 13 < 10 is false.) Tj
+T*
+ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 21 0 R >>
+endobj
+21 0 obj
+<< /Length 323 >>
+stream
+BT
+/F1 10 Tf
+50 790 Td
+14 TL
+(C4) Tj
+T*
+() Tj
+T*
+(C4) Tj
+T*
+(D = 6) Tj
+T*
+(Outputs:) Tj
+T*
+(EO) Tj
+T*
+(2) Tj
+T*
+(E) Tj
+T*
+() Tj
+T*
+(At x=6, it is even and appends E, then subtracts 3, making x=3. At x=3, it is odd and) Tj
+T*
+(appends O, then subtracts 3, making x=0. The loop stops. Result is EO and is not empty.) Tj
+T*
+ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 23 0 R >>
+endobj
+23 0 obj
+<< /Length 452 >>
+stream
+BT
+/F1 10 Tf
+50 790 Td
+14 TL
+(C5) Tj
+T*
+() Tj
+T*
+(C5) Tj
+T*
+(drawTriangle\(d + 3\) with D=6 prints:) Tj
+T*
+(        *) Tj
+T*
+(       ##) Tj
+T*
+(      ***) Tj
+T*
+(     ####) Tj
+T*
+(    *****) Tj
+T*
+(   ######) Tj
+T*
+(   *******) Tj
+T*
+(  ########) Tj
+T*
+( *********) Tj
+T*
+() Tj
+T*
+(The number of spaces is height - row, so each row is right-aligned. Odd rows print '*',) Tj
+T*
+(repeated row times, and even rows print '#', repeated row times.) Tj
+T*
+ET
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 25 0 R >>
+endobj
+25 0 obj
+<< /Length 867 >>
+stream
+BT
+/F1 10 Tf
+50 790 Td
+14 TL
+(D1) Tj
+T*
+() Tj
+T*
+(D1 Trace) Tj
+T*
+(1) Tj
+T*
+(5) Tj
+T*
+(1180) Tj
+T*
+(1178) Tj
+T*
+(1000) Tj
+T*
+() Tj
+T*
+(bump\(\) creates and changes a local count variable, leaving global count at 1.) Tj
+T*
+(doubleIt\(v\) passes v by value, so changing value does not change v, which remains 5.) Tj
+T*
+(addVat\(1000\) calculates 1000 + 1000*18~/100 = 1180.) Tj
+T*
+(addVat\(999\) calculates 999 + 999*18~/100. Dart performs integer division on 17982~/100,) Tj
+T*
+(giving 179, so the result is 1178.) Tj
+T*
+(The rate is 0, so addVat\(1000, rate: 0\) returns 1000.) Tj
+T*
+() Tj
+T*
+(Why addVat\(999\) is not exactly 18%:) Tj
+T*
+(Its percentage amount is calculated using integer division, which truncates 179.82 to) Tj
+T*
+(179. This loses the fractional remainder, so the result is 1178 instead of the exact) Tj
+T*
+(1178.82 \(18% more than 999\).) Tj
+T*
+ET
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 27 0 R >>
+endobj
+27 0 obj
+<< /Length 781 >>
+stream
+BT
+/F1 10 Tf
+50 790 Td
+14 TL
+(D2) Tj
+T*
+() Tj
+T*
+(D2) Tj
+T*
+(Actual MoMo receipts:) Tj
+T*
+(Receipt 1 | 12600 RWF | fee 250 RWF | to 078*****56) Tj
+T*
+(Receipt 2 | 16600 RWF | fee 250 RWF | to 078*****56) Tj
+T*
+(Receipt 3 | 20600 RWF | fee 250 RWF | to 078*****56) Tj
+T*
+(Receipt 4 | 24600 RWF | fee 250 RWF | to 078*****56) Tj
+T*
+(Receipt 5 | 28600 RWF | fee 250 RWF | to 078*****56) Tj
+T*
+(Receipt 6 | 32600 RWF | fee 250 RWF | to 078*****56) Tj
+T*
+(Receipt 7 | 36600 RWF | fee 250 RWF | to 078*****56) Tj
+T*
+(Receipt 8 | 40600 RWF | fee 250 RWF | to 078*****56) Tj
+T*
+(Receipt 9 | 44600 RWF | fee 250 RWF | to 078*****56) Tj
+T*
+(Total fees: 2250 RWF) Tj
+T*
+() Tj
+T*
+(All nine receipts are 10,001 RWF or more, so the first to enter the 250 RWF band is) Tj
+T*
+(Receipt 1.) Tj
+T*
+ET
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 29 0 R >>
+endobj
+29 0 obj
+<< /Length 1004 >>
+stream
+BT
+/F1 10 Tf
+50 790 Td
+14 TL
+(E) Tj
+T*
+() Tj
+T*
+(E - Find and Fix) Tj
+T*
+(1. grade\(85\) first returns 'C', because the mark >= 50 check appears before the more) Tj
+T*
+(specific 70 and 80 checks.) Tj
+T*
+() Tj
+T*
+(2. isPalindrome\('level'\) triggers an out-of-range string index error: RangeError) Tj
+T*
+(\(index\): Invalid value: Not in inclusive range 0..4: 5. The i=0 expression) Tj
+T*
+(word[word.length-i] reads index 5, which does not exist in a five-character string.) Tj
+T*
+() Tj
+T*
+(3. Fixed changes:) Tj
+T*
+(- Grade: reversed the if checks to 80, then 70, then 50.) Tj
+T*
+(- Palindrome: changed the loop bound to word.length ~/ 2 and changed the right index to) Tj
+T*
+(word.length - 1 - i.) Tj
+T*
+() Tj
+T*
+(4. Choice: isPalindrome\('Level'\) was made case-insensitive and therefore returns true.) Tj
+T*
+(The implementation normalizes with toLowerCase\(\), because case differences should not) Tj
+T*
+(stop a word with equal letters in reverse order from being recognized as a palindrome.) Tj
+T*
+ET
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 31 0 R >>
+endobj
+31 0 obj
+<< /Length 954 >>
+stream
+BT
+/F1 10 Tf
+50 790 Td
+14 TL
+(F) Tj
+T*
+() Tj
+T*
+(F - USSD Output) Tj
+T*
+(PIN results:) Tj
+T*
+(12345 false) Tj
+T*
+(77777 false) Tj
+T*
+(4821 false) Tj
+T*
+(48216 true) Tj
+T*
+(48a21 false) Tj
+T*
+() Tj
+T*
+(Starting balance: 63,000 RWF) Tj
+T*
+() Tj
+T*
+(Actual output:) Tj
+T*
+(Sent 21,000 RWF \(fee 250 RWF\). New balance: 41,750 RWF) Tj
+T*
+(Sent 21,000 RWF \(fee 250 RWF\). New balance: 20,500 RWF) Tj
+T*
+(Failed: insufficient balance) Tj
+T*
+(Bought airtime 1,000 RWF. New balance: 19,500 RWF) Tj
+T*
+(Failed: insufficient balance) Tj
+T*
+(Final balance: 19,500 RWF) Tj
+T*
+() Tj
+T*
+(The first two sends are valid. The third send fails because 21,250 RWF exceeds the) Tj
+T*
+(remaining 20,500 RWF balance. Airtime then leaves 19,500 RWF, and the 200,000 RWF send) Tj
+T*
+(fails as insufficient.) Tj
+T*
+() Tj
+T*
+(One surprising point: the third 21,000 RWF send is rejected only because its 250 RWF fee) Tj
+T*
+(is included in the insufficient-balance check.) Tj
+T*
+ET
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 33 0 R >>
+endobj
+33 0 obj
+<< /Length 1790 >>
+stream
+BT
+/F1 10 Tf
+50 790 Td
+14 TL
+(G) Tj
+T*
+() Tj
+T*
+(G - Debugging Log \(draft\)) Tj
+T*
+() Tj
+T*
+(These are three real issues checked while reviewing the first-draft answers) Tj
+T*
+(and the Part E starter code. Keep them only if they match what you actually) Tj
+T*
+(reviewed or tested; otherwise replace them with your own observations.) Tj
+T*
+() Tj
+T*
+(1. Wrong first-draft output:) Tj
+T*
+(-17 ~/ 5 was written as -4; the Dart run printed -3.) Tj
+T*
+(Line: print\(-a ~/ b\);) Tj
+T*
+(Cause: I treated ~/ as rounding down. Dart truncates integer division toward) Tj
+T*
+(zero.) Tj
+T*
+(Fix: Corrected the output and explanation to -3.) Tj
+T*
+() Tj
+T*
+(2. Exact wrong output from running the Part E starter grade function:) Tj
+T*
+(C) Tj
+T*
+(Line: if \(mark >= 50\) { return 'C'; }) Tj
+T*
+(Cause: grade\(85\) matches the first condition before the later >= 70 and >= 80) Tj
+T*
+(conditions can be reached.) Tj
+T*
+(Fix: Check the thresholds from highest to lowest: 80, 70, then 50.) Tj
+T*
+() Tj
+T*
+(3. Exact runtime error from running isPalindrome\('level'\) in the Part E) Tj
+T*
+(starter code:) Tj
+T*
+(RangeError \(index\): Invalid value: Not in inclusive range 0..4: 5) Tj
+T*
+(Line: if \(word[i] != word[word.length - i]\) return false;) Tj
+T*
+(Cause: At i = 0, the expression reads word[5], but a five-character word has) Tj
+T*
+(valid indexes 0 through 4.) Tj
+T*
+(Fix: Compare against word.length - 1 - i and stop after word.length ~/ 2.) Tj
+T*
+(The corrected function is case-insensitive.) Tj
+T*
+() Tj
+T*
+(Longest question \(personalize if this is not true for you\):) Tj
+T*
+(Part F took the longest because it combines PIN checks, money formatting,) Tj
+T*
+(fees, and balance changes. I had to check each transaction's result against) Tj
+T*
+(the starting balance and exact output format.) Tj
+T*
+ET
+endstream
+endobj
+xref
+0 34
+0000000000 65535 f 
+0000000028 00000 n 
+0000000077 00000 n 
+0000000231 00000 n 
+0000000301 00000 n 
+0000000427 00000 n 
+0000001328 00000 n 
+0000001454 00000 n 
+0000002017 00000 n 
+0000002143 00000 n 
+0000003610 00000 n 
+0000003738 00000 n 
+0000004350 00000 n 
+0000004478 00000 n 
+0000005247 00000 n 
+0000005375 00000 n 
+0000005644 00000 n 
+0000005772 00000 n 
+0000006320 00000 n 
+0000006448 00000 n 
+0000006881 00000 n 
+0000007009 00000 n 
+0000007384 00000 n 
+0000007512 00000 n 
+0000008016 00000 n 
+0000008144 00000 n 
+0000009063 00000 n 
+0000009191 00000 n 
+0000010024 00000 n 
+0000010152 00000 n 
+0000011209 00000 n 
+0000011337 00000 n 
+0000012343 00000 n 
+0000012471 00000 n 
+trailer
+<< /Size 34 /Root 1 0 R >>
+startxref
+14314
+%%EOF
